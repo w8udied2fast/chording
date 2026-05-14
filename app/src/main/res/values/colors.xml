@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Основные цвета (светлая тема) -->
+    <color name="green_primary">#2E7D32</color>
+    <color name="green_primary_variant">#1B5E20</color>
+    <color name="green_secondary">#66BB6A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Цвета для фона -->
+    <color name="background_light">#E8F5E9</color>
+    <color name="surface_light">#FFFFFF</color>
+
+    <!-- Цвета текста -->
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_background">#1C1B1F</color>
+    <color name="on_surface">#1C1B1F</color>
 </resources>
