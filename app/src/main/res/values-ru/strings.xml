@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chording</string>
+
+    <string name="nav_home">Главная</string>
+    <string name="nav_search">Поиск</string>
+    <string name="nav_favorites">Избранное</string>
+
+    <string name="home_screen">ГЛАВНЫЙ ЭКРАН</string>
+    <string name="search_screen">ЭКРАН ПОИСКА</string>
+    <string name="favorites_screen">ИЗБРАННОЕ</string>
+
+    <string name="cat_c">Аккорды C</string>
+    <string name="cat_d">Аккорды D</string>
+    <string name="cat_e">Аккорды E</string>
+    <string name="cat_f">Аккорды F</string>
+    <string name="cat_g">Аккорды G</string>
+    <string name="cat_a">Аккорды A</string>
+    <string name="cat_b">Аккорды B</string>
+</resources>

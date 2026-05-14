@@ -1,3 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Chording</string>
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_favorites">Favorites</string>
+
+    <!-- Screens -->
+    <string name="home_screen">HOME SCREEN</string>
+    <string name="search_screen">SEARCH SCREEN</string>
+    <string name="favorites_screen">FAVORITES SCREEN</string>
+
+    <!-- Categories -->
+    <string name="cat_c">C chords</string>
+    <string name="cat_d">D chords</string>
+    <string name="cat_e">E chords</string>
+    <string name="cat_f">F chords</string>
+    <string name="cat_g">G chords</string>
+    <string name="cat_a">A chords</string>
+    <string name="cat_b">B chords</string>
 </resources>
