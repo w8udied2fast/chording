@@ -46,6 +46,7 @@ dependencies {
     annotationProcessor(libs.room.compiler)
     implementation(libs.lifecycle.viewmodel)
     implementation(libs.lifecycle.livedata)
+    implementation(libs.recyclerview)
 
     implementation(libs.activity.ktx)
     implementation(libs.appcompat)
