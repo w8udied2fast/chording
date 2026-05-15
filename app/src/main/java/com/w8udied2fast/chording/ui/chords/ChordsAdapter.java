@@ -16,6 +16,15 @@ import java.util.List;
 
 public class ChordsAdapter extends RecyclerView.Adapter<ChordsAdapter.ChordViewHolder> {
     private List<Chord> chords = new ArrayList<>();
+    private OnItemClickListener listener;
+
+    public interface OnItemClickListener {
+        void onItemClick(Chord chord);
+    }
+
+    public void setOnItemClickListener(OnItemClickListener listener) {
+        this.listener = listener;
+    }
 
     @NonNull
     @Override
@@ -29,10 +38,12 @@ public class ChordsAdapter extends RecyclerView.Adapter<ChordsAdapter.ChordViewH
         Chord chord = chords.get(position);
         holder.binding.tvChordName.setText(chord.getName());
         holder.binding.ivStar.setImageResource(android.R.drawable.btn_star_big_off);
+
+        // отдаём клик наружу через интерфейс
         holder.itemView.setOnClickListener(v -> {
-            Bundle bundle = new Bundle();
-            bundle.putString("chordName", chord.getName());
-            Navigation.findNavController(v).navigate(R.id.action_chordsListFragment_to_chordDetailFragment, bundle);
+            if (listener != null) {
+                listener.onItemClick(chord);
+            }
         });
     }
 
@@ -54,6 +65,4 @@ public class ChordsAdapter extends RecyclerView.Adapter<ChordsAdapter.ChordViewH
             this.binding = binding;
         }
     }
-
-
 }

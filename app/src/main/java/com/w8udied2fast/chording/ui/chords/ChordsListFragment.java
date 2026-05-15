@@ -8,7 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
+
+import com.w8udied2fast.chording.R;
 import com.w8udied2fast.chording.databinding.FragmentChordsListBinding;
 import com.w8udied2fast.chording.viewmodel.ChordsViewModel;
 
@@ -29,18 +32,25 @@ public class ChordsListFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        // 1. Читаем переданную букву
+        // Читаем переданную букву
         if (getArguments() != null) {
             currentRoot = getArguments().getString("rootNote", "C");
         }
         binding.tvTitle.setText(currentRoot + " Chords");
 
-        // 2. Настраиваем RecyclerView
+        // Настраиваем RecyclerView
         adapter = new ChordsAdapter();
         binding.rvChords.setLayoutManager(new LinearLayoutManager(requireContext()));
         binding.rvChords.setAdapter(adapter);
 
-        // 3. Подключаем ViewModel
+        adapter.setOnItemClickListener(chord -> {
+            Bundle bundle = new Bundle();
+            bundle.putString("chordName", chord.getName());
+            Navigation.findNavController(requireView())
+                    .navigate(R.id.action_chordsListFragment_to_chordDetailFragment, bundle);
+        });
+
+        // Подключаем ViewModel
         viewModel = new ViewModelProvider(requireActivity()).get(ChordsViewModel.class);
 
         // Фильтруем аккорды по выбранной ноте

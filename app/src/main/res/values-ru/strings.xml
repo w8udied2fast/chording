@@ -17,4 +17,7 @@
     <string name="cat_g">Аккорды G</string>
     <string name="cat_a">Аккорды A</string>
     <string name="cat_b">Аккорды B</string>
+
+    <string name="search_hint">Поиск аккордов…</string>
+    <string name="search_empty">Аккорды не найдены</string>
 </resources>

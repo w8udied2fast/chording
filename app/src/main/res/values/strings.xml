@@ -19,4 +19,8 @@
     <string name="cat_g">G chords</string>
     <string name="cat_a">A chords</string>
     <string name="cat_b">B chords</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search chords...</string>
+    <string name="search_empty">No chords found</string>
 </resources>

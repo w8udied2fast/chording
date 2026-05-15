@@ -19,7 +19,11 @@
         android:id="@+id/searchFragment"
         android:name="com.w8udied2fast.chording.ui.search.SearchFragment"
         android:label="SearchFragment"
-        tools:layout="@layout/fragment_search" />
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_chordDetailFragment"
+            app:destination="@id/chordDetailFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/favoritesFragment"
