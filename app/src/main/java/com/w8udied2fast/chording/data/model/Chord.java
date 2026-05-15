@@ -21,13 +21,29 @@ public class Chord {
     public static class Position {
         private int string; // 1-6 (1 это самая тонкая струна, 6 это самая толстая)
         private int fret;   // 0 - открытая струна, >0 - номер лада
+        private int finger;   // 0 - не указан, 1-4 это номер пальца (1 - указательный, 4 - мизинец)
 
-        // Геттеры
+        // Конструкторы
+        public Position(int string, int fret, int finger) {
+            this.string = string;
+            this.fret = fret;
+            this.finger = finger;
+        }
+
+        public Position(int string, int fret) {
+            this(string, fret, 0);
+        }
+
+        public Position() {}
+
+        // Геттеры и сеттеры
         public int getString() { return string; }
-        public int getFret() { return fret; }
-
-        // Сеттеры
         public void setString(int string) { this.string = string; }
+
+        public int getFret() { return fret; }
         public void setFret(int fret) { this.fret = fret; }
+
+        public int getFinger() { return finger; }
+        public void setFinger(int finger) { this.finger = finger; }
     }
 }

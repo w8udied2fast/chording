@@ -37,5 +37,18 @@
             android:name="rootNote"
             app:argType="string"
             android:defaultValue="C" />
+        <action
+            android:id="@+id/action_chordsListFragment_to_chordDetailFragment"
+            app:destination="@id/chordDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chordDetailFragment"
+        android:name="com.w8udied2fast.chording.ui.chords.ChordDetailFragment"
+        android:label="ChordDetailFragment"
+        tools:layout="@layout/fragment_chord_detail">
+        <argument
+            android:name="chordName"
+            app:argType="string" />
     </fragment>
 </navigation>

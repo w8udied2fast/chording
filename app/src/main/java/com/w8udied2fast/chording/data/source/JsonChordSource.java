@@ -39,6 +39,7 @@ public class JsonChordSource {
                     Chord.Position pos = new Chord.Position();
                     pos.setString(posObj.getInt("string"));
                     pos.setFret(posObj.getInt("fret"));
+                    pos.setFinger(posObj.getInt("finger"));
                     positions.add(pos);
                 }
                 chord.setPositions(positions);

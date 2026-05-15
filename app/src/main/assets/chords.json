@@ -1,12 +1,48 @@
 [
-  {"name": "C", "root": "C", "positions": [{"string":5,"fret":3},{"string":4,"fret":2},{"string":3,"fret":0},{"string":2,"fret":1},{"string":1,"fret":0}]},
-  {"name": "Cm", "root": "C", "positions": [{"string":5,"fret":3},{"string":4,"fret":3},{"string":3,"fret":5},{"string":2,"fret":4},{"string":1,"fret":3}]},
-  {"name": "C7", "root": "C", "positions": [{"string":5,"fret":3},{"string":4,"fret":2},{"string":3,"fret":3},{"string":2,"fret":2},{"string":1,"fret":0}]},
-  {"name": "D", "root": "D", "positions": [{"string":4,"fret":0},{"string":3,"fret":2},{"string":2,"fret":3},{"string":1,"fret":2}]},
-  {"name": "Dm", "root": "D", "positions": [{"string":4,"fret":0},{"string":3,"fret":2},{"string":2,"fret":3},{"string":1,"fret":1}]},
-  {"name": "E", "root": "E", "positions": [{"string":6,"fret":0},{"string":5,"fret":2},{"string":4,"fret":2},{"string":3,"fret":1},{"string":2,"fret":0},{"string":1,"fret":0}]},
-  {"name": "Em", "root": "E", "positions": [{"string":6,"fret":0},{"string":5,"fret":2},{"string":4,"fret":2},{"string":3,"fret":0},{"string":2,"fret":0},{"string":1,"fret":0}]},
-  {"name": "G", "root": "G", "positions": [{"string":6,"fret":3},{"string":5,"fret":2},{"string":4,"fret":0},{"string":3,"fret":0},{"string":2,"fret":0},{"string":1,"fret":3}]},
-  {"name": "A", "root": "A", "positions": [{"string":5,"fret":0},{"string":4,"fret":2},{"string":3,"fret":2},{"string":2,"fret":2},{"string":1,"fret":0}]},
-  {"name": "Am", "root": "A", "positions": [{"string":5,"fret":0},{"string":4,"fret":2},{"string":3,"fret":2},{"string":2,"fret":1},{"string":1,"fret":0}]}
+  {"name":"C","root":"C","positions":[{"string":5,"fret":3,"finger":3},{"string":4,"fret":2,"finger":2},{"string":3,"fret":0,"finger":0},{"string":2,"fret":1,"finger":1},{"string":1,"fret":0,"finger":0}]},
+  {"name":"Cm","root":"C","positions":[{"string":5,"fret":3,"finger":3},{"string":4,"fret":3,"finger":4},{"string":3,"fret":5,"finger":4},{"string":2,"fret":4,"finger":3},{"string":1,"fret":3,"finger":1}]},
+  {"name":"C7","root":"C","positions":[{"string":5,"fret":3,"finger":3},{"string":4,"fret":2,"finger":2},{"string":3,"fret":3,"finger":4},{"string":2,"fret":2,"finger":1},{"string":1,"fret":0,"finger":0}]},
+  {"name":"Cmaj7","root":"C","positions":[{"string":5,"fret":3,"finger":3},{"string":4,"fret":2,"finger":2},{"string":3,"fret":0,"finger":0},{"string":2,"fret":0,"finger":0},{"string":1,"fret":0,"finger":0}]},
+  {"name":"Cadd9","root":"C","positions":[{"string":5,"fret":3,"finger":3},{"string":4,"fret":2,"finger":2},{"string":3,"fret":0,"finger":0},{"string":2,"fret":3,"finger":4},{"string":1,"fret":0,"finger":0}]},
+  {"name":"C#","root":"C","positions":[{"string":5,"fret":4,"finger":2},{"string":4,"fret":6,"finger":4},{"string":3,"fret":6,"finger":4},{"string":2,"fret":4,"finger":1},{"string":1,"fret":4,"finger":1}]},
+  {"name":"C#m","root":"C","positions":[{"string":5,"fret":4,"finger":2},{"string":4,"fret":6,"finger":4},{"string":3,"fret":6,"finger":4},{"string":2,"fret":4,"finger":1},{"string":1,"fret":4,"finger":1}]},
+
+  {"name":"D","root":"D","positions":[{"string":4,"fret":0,"finger":0},{"string":3,"fret":2,"finger":3},{"string":2,"fret":3,"finger":4},{"string":1,"fret":2,"finger":2}]},
+  {"name":"Dm","root":"D","positions":[{"string":4,"fret":0,"finger":0},{"string":3,"fret":2,"finger":3},{"string":2,"fret":3,"finger":4},{"string":1,"fret":1,"finger":1}]},
+  {"name":"D7","root":"D","positions":[{"string":4,"fret":0,"finger":0},{"string":3,"fret":2,"finger":1},{"string":2,"fret":1,"finger":2},{"string":1,"fret":2,"finger":3}]},
+  {"name":"Dmaj7","root":"D","positions":[{"string":4,"fret":0,"finger":0},{"string":3,"fret":2,"finger":2},{"string":2,"fret":2,"finger":3},{"string":1,"fret":2,"finger":4}]},
+  {"name":"D#","root":"D","positions":[{"string":6,"fret":6,"finger":1},{"string":5,"fret":8,"finger":3},{"string":4,"fret":8,"finger":4},{"string":3,"fret":6,"finger":1},{"string":2,"fret":6,"finger":1},{"string":1,"fret":6,"finger":1}]},
+  {"name":"D#m","root":"D","positions":[{"string":6,"fret":6,"finger":1},{"string":5,"fret":8,"finger":3},{"string":4,"fret":8,"finger":4},{"string":3,"fret":6,"finger":1},{"string":2,"fret":6,"finger":1},{"string":1,"fret":6,"finger":1}]},
+
+  {"name":"E","root":"E","positions":[{"string":6,"fret":0,"finger":0},{"string":5,"fret":2,"finger":2},{"string":4,"fret":2,"finger":3},{"string":3,"fret":1,"finger":1},{"string":2,"fret":0,"finger":0},{"string":1,"fret":0,"finger":0}]},
+  {"name":"Em","root":"E","positions":[{"string":6,"fret":0,"finger":0},{"string":5,"fret":2,"finger":2},{"string":4,"fret":2,"finger":3},{"string":3,"fret":0,"finger":0},{"string":2,"fret":0,"finger":0},{"string":1,"fret":0,"finger":0}]},
+  {"name":"E7","root":"E","positions":[{"string":6,"fret":0,"finger":0},{"string":5,"fret":2,"finger":2},{"string":4,"fret":0,"finger":0},{"string":3,"fret":0,"finger":0},{"string":2,"fret":1,"finger":1},{"string":1,"fret":0,"finger":0}]},
+  {"name":"Em7","root":"E","positions":[{"string":6,"fret":0,"finger":0},{"string":5,"fret":2,"finger":2},{"string":4,"fret":0,"finger":0},{"string":3,"fret":0,"finger":0},{"string":2,"fret":3,"finger":3},{"string":1,"fret":0,"finger":0}]},
+  {"name":"Emaj7","root":"E","positions":[{"string":6,"fret":0,"finger":0},{"string":5,"fret":2,"finger":3},{"string":4,"fret":1,"finger":2},{"string":3,"fret":1,"finger":1},{"string":2,"fret":0,"finger":0},{"string":1,"fret":0,"finger":0}]},
+
+  {"name":"F","root":"F","positions":[{"string":6,"fret":1,"finger":1},{"string":5,"fret":3,"finger":3},{"string":4,"fret":3,"finger":4},{"string":3,"fret":2,"finger":2},{"string":2,"fret":1,"finger":1},{"string":1,"fret":1,"finger":1}]},
+  {"name":"Fm","root":"F","positions":[{"string":6,"fret":1,"finger":1},{"string":5,"fret":3,"finger":3},{"string":4,"fret":3,"finger":4},{"string":3,"fret":1,"finger":1},{"string":2,"fret":1,"finger":1},{"string":1,"fret":1,"finger":1}]},
+  {"name":"Fmaj7","root":"F","positions":[{"string":6,"fret":1,"finger":1},{"string":5,"fret":3,"finger":3},{"string":4,"fret":2,"finger":2},{"string":3,"fret":2,"finger":2},{"string":2,"fret":1,"finger":1},{"string":1,"fret":0,"finger":0}]},
+  {"name":"F7","root":"F","positions":[{"string":6,"fret":1,"finger":1},{"string":5,"fret":3,"finger":3},{"string":4,"fret":1,"finger":1},{"string":3,"fret":2,"finger":2},{"string":2,"fret":1,"finger":1},{"string":1,"fret":1,"finger":1}]},
+  {"name":"F#","root":"F","positions":[{"string":6,"fret":2,"finger":2},{"string":5,"fret":4,"finger":4},{"string":4,"fret":4,"finger":4},{"string":3,"fret":2,"finger":1},{"string":2,"fret":2,"finger":1},{"string":1,"fret":2,"finger":1}]},
+  {"name":"F#m","root":"F","positions":[{"string":6,"fret":2,"finger":2},{"string":5,"fret":4,"finger":4},{"string":4,"fret":4,"finger":4},{"string":3,"fret":2,"finger":1},{"string":2,"fret":2,"finger":1},{"string":1,"fret":2,"finger":1}]},
+
+  {"name":"G","root":"G","positions":[{"string":6,"fret":3,"finger":3},{"string":5,"fret":2,"finger":2},{"string":4,"fret":0,"finger":0},{"string":3,"fret":0,"finger":0},{"string":2,"fret":0,"finger":0},{"string":1,"fret":3,"finger":4}]},
+  {"name":"Gm","root":"G","positions":[{"string":6,"fret":3,"finger":3},{"string":5,"fret":5,"finger":4},{"string":4,"fret":5,"finger":4},{"string":3,"fret":3,"finger":1},{"string":2,"fret":3,"finger":1},{"string":1,"fret":3,"finger":1}]},
+  {"name":"G7","root":"G","positions":[{"string":6,"fret":3,"finger":3},{"string":5,"fret":2,"finger":2},{"string":4,"fret":0,"finger":0},{"string":3,"fret":0,"finger":0},{"string":2,"fret":0,"finger":0},{"string":1,"fret":1,"finger":1}]},
+  {"name":"Gmaj7","root":"G","positions":[{"string":6,"fret":3,"finger":3},{"string":5,"fret":2,"finger":2},{"string":4,"fret":0,"finger":0},{"string":3,"fret":0,"finger":0},{"string":2,"fret":0,"finger":0},{"string":1,"fret":2,"finger":4}]},
+  {"name":"G6","root":"G","positions":[{"string":6,"fret":3,"finger":3},{"string":5,"fret":2,"finger":2},{"string":4,"fret":0,"finger":0},{"string":3,"fret":0,"finger":0},{"string":2,"fret":2,"finger":4},{"string":1,"fret":3,"finger":1}]},
+  {"name":"G#","root":"G","positions":[{"string":6,"fret":4,"finger":1},{"string":5,"fret":6,"finger":3},{"string":4,"fret":6,"finger":4},{"string":3,"fret":4,"finger":1},{"string":2,"fret":4,"finger":1},{"string":1,"fret":4,"finger":1}]},
+  {"name":"G#m","root":"G","positions":[{"string":6,"fret":4,"finger":1},{"string":5,"fret":6,"finger":3},{"string":4,"fret":6,"finger":4},{"string":3,"fret":4,"finger":1},{"string":2,"fret":4,"finger":1},{"string":1,"fret":4,"finger":1}]},
+
+  {"name":"A","root":"A","positions":[{"string":5,"fret":0,"finger":0},{"string":4,"fret":2,"finger":2},{"string":3,"fret":2,"finger":3},{"string":2,"fret":2,"finger":4},{"string":1,"fret":0,"finger":0}]},
+  {"name":"Am","root":"A","positions":[{"string":5,"fret":0,"finger":0},{"string":4,"fret":2,"finger":2},{"string":3,"fret":2,"finger":3},{"string":2,"fret":1,"finger":1},{"string":1,"fret":0,"finger":0}]},
+  {"name":"A7","root":"A","positions":[{"string":5,"fret":0,"finger":0},{"string":4,"fret":2,"finger":2},{"string":3,"fret":0,"finger":0},{"string":2,"fret":2,"finger":3},{"string":1,"fret":0,"finger":0}]},
+  {"name":"Am7","root":"A","positions":[{"string":5,"fret":0,"finger":0},{"string":4,"fret":2,"finger":2},{"string":3,"fret":0,"finger":0},{"string":2,"fret":1,"finger":1},{"string":1,"fret":0,"finger":0}]},
+  {"name":"Amaj7","root":"A","positions":[{"string":5,"fret":0,"finger":0},{"string":4,"fret":2,"finger":2},{"string":3,"fret":1,"finger":1},{"string":2,"fret":2,"finger":3},{"string":1,"fret":0,"finger":0}]},
+
+  {"name":"B","root":"B","positions":[{"string":5,"fret":2,"finger":2},{"string":4,"fret":4,"finger":4},{"string":3,"fret":4,"finger":4},{"string":2,"fret":4,"finger":4},{"string":1,"fret":2,"finger":1}]},
+  {"name":"Bm","root":"B","positions":[{"string":5,"fret":2,"finger":2},{"string":4,"fret":4,"finger":4},{"string":3,"fret":4,"finger":4},{"string":2,"fret":3,"finger":3},{"string":1,"fret":2,"finger":1}]},
+  {"name":"B7","root":"B","positions":[{"string":5,"fret":2,"finger":2},{"string":4,"fret":1,"finger":1},{"string":3,"fret":2,"finger":3},{"string":2,"fret":0,"finger":0},{"string":1,"fret":2,"finger":4}]},
+  {"name":"Bm7","root":"B","positions":[{"string":5,"fret":2,"finger":2},{"string":4,"fret":0,"finger":0},{"string":3,"fret":2,"finger":3},{"string":2,"fret":0,"finger":0},{"string":1,"fret":2,"finger":4}]}
 ]
